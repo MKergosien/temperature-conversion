@@ -1,19 +1,37 @@
-Temperature:<input type="text" id="temp" /> 
 
-<br><br>
+<!doctype html>
 
-Convert to:
-<div>
-  Celsius: <input type="radio" name="conversion_type" value="celsius" />
-  Fahrenheit: <input type="radio" name="conversion_type" value="fahrenheit" />
-</div>
+<html lang="en">
+<head>
+  <script text="text/javascript" src="temp.js"> </script>
+  <meta charset="utf-8">
+  <title>Temp Conversions</title>
+</head>
 
-<br>
+<body>
+  <nav></nav>
+  <div>
+	    Temperature:<input type="text" id="temp" /> 
+  </div>
+		<br><br>
+		Convert to:
+	<div>
+	    Celsius: <input type="radio" name="conversion_type" value="celsius" />
+    	Fahrenheit: <input type="radio" name="conversion_type" value="fahrenheit" />
+	</div>
+		<br>
+	<div>
+		<button id="converter">Convert</button>
+	</div>
+	<br>
 
-<button id="converter">Convert</button>
+	<div id="answerOutput">  
+		Answer:
+	</div> 
+  </body>
+</html>
 
-<br>
 
-<div id="answerOutput">  
-Answer:
-</div>  
+
+
+ 
